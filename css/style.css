@@ -1,0 +1,31 @@
+body {
+  background: #f5ccb0;
+
+  display: flex;
+}
+.container {
+  display: inline-block;
+  width: auto;
+  padding: 20px 50px;
+  height: 1100%;
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-style: italic;
+}
+
+p {
+  padding: 10px 0;
+}
+
+@media (max-width: 767px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
